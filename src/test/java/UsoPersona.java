@@ -3,6 +3,7 @@ import ClasesyObjetos.Avion;
 import ClasesyObjetos.Mascota;
 import ClasesyObjetos.Motocicleta;
 import ClasesyObjetos.Pacientes;
+import ClasesyObjetos.Pelota;
 import ClasesyObjetos.Persona;
 
 public class UsoPersona {
@@ -30,7 +31,7 @@ public class UsoPersona {
 
         //System.out.println(Eivar.imprimeDatos());
 
-
+/*
         Motocicleta moto = new Motocicleta("Harley Davidson","gris rata",2026);
 
         System.out.println(moto.imprimeDatosMotocicleta());
@@ -38,16 +39,31 @@ public class UsoPersona {
 
         Avion FichaDeVenta = new Avion("Avion de Pasajeros","Queroseno", 2026, "Blanco",500, 'A');
 
-        System.out.println(FichaDeVenta.Informacion());
+        System.out.println(FichaDeVenta.Informacion()); */
+
+        /*Pacientes paciente = new Pacientes(1995,2026,"paracetamol");
+        System.out.println(p;
+
+        System.out.println(paciente.getArea());
+
+        paciente.setArea("Recuperacion");
+
+        System.out.println(paciente.getArea());
+
+        paciente.setNombre("Dulce Maria");
+        System.out.println(paciente.getNombre());*/
 
 
-        Pacientes paciente = new Pacientes("Dulce", "Moran ", 30,  "Recuperacion", "Tramadol 1 gr via intravenosa cada 8 horas", "dieta blanda abundante liquido");
+        Pelota pelota = new Pelota();
 
-        System.out.println(paciente.imprimeDatos());  // ← ESTA LÍNEA FALTA
+        pelota.setColor("roja");
+       pelota.setTamaño("grande");
+        pelota.setDiametro(1200.34);
 
 
+       // System.out.println(pelota.getDatos());
 
-
+        System.out.println(pelota.retornaSaludo());
 
 
     }
