@@ -1,5 +1,7 @@
 import ClasesyObjetos.Automovil;
 import ClasesyObjetos.Avion;
+import ClasesyObjetos.Escuela;
+import ClasesyObjetos.Libreria;
 import ClasesyObjetos.Mascota;
 import ClasesyObjetos.Motocicleta;
 import ClasesyObjetos.Pacientes;
@@ -10,7 +12,7 @@ public class UsoPersona {
 
 
 
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
 
 
         //Persona programador = new Persona("Emanuel");
@@ -54,17 +56,27 @@ public class UsoPersona {
         System.out.println(paciente.getNombre());*/
 
 
-        Pelota pelota = new Pelota();
+        //Pelota pelota = new Pelota();
 
-        pelota.setColor("roja");
+        /*pelota.setColor("roja");
        pelota.setTamaño("grande");
         pelota.setDiametro(1200.34);
 
 
        // System.out.println(pelota.getDatos());
 
-        System.out.println(pelota.retornaSaludo());
+        System.out.println(pelota.retornaSaludo());*/
 
+
+        Libreria libreria = new Libreria();
+        libreria.setAutor("Maria Pepa");
+        libreria.setPrecio(145.50);
+        libreria.setTematica("Romance");
+
+        System.out.println(libreria.getDatos());
+
+      Escuela alumno = new Escuela("Emanuel", "Medrano Zoquitecalt",35, "Sexto", 'A');
+        System.out.println(alumno.getDatosDeAlumnos());
 
     }
 
