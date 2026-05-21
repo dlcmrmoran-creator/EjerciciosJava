@@ -7,6 +7,8 @@ import ClasesyObjetos.Motocicleta;
 import ClasesyObjetos.Pacientes;
 import ClasesyObjetos.Pelota;
 import ClasesyObjetos.Persona;
+import ClasesyObjetos.ProductoAbarrotes;
+import ClasesyObjetos.ProductoPapeleria;
 
 public class UsoPersona {
 
@@ -68,7 +70,7 @@ public class UsoPersona {
         System.out.println(pelota.retornaSaludo());*/
 
 
-        Libreria libreria = new Libreria();
+        /*Libreria libreria = new Libreria();
         libreria.setAutor("Maria Pepa");
         libreria.setPrecio(145.50);
         libreria.setTematica("Romance");
@@ -76,7 +78,36 @@ public class UsoPersona {
         System.out.println(libreria.getDatos());
 
       Escuela alumno = new Escuela("Emanuel", "Medrano Zoquitecalt",35, "Sexto", 'A');
-        System.out.println(alumno.getDatosDeAlumnos());
+        System.out.println(alumno.getDatosDeAlumnos());*/
+
+        //ProductoPapeleria libreta = new ProductoPapeleria("Libreta", "Norma","cosida",35.50,100);
+// aca cree un objeto de la clase  producto papeleria
+
+        //System.out.println(libreta.getDatos()); //use el metodo get datos del objeto libreta
+
+       // ProductoPapeleria lapiz = new ProductoPapeleria("Lapiz", "Mirado","grafito",12.00,1000 );
+
+       // System.out.println(lapiz.getDatos());
+
+
+
+        ProductoAbarrotes pasta = new ProductoAbarrotes();
+        pasta.setProducto("Sopa Codo");
+pasta.setCantidad(50);
+pasta.setMarca("La moderna");
+pasta.setPrecio(15.50);
+
+
+        System.out.println(pasta.getDatos());
+
+        ProductoAbarrotes arroz = new ProductoAbarrotes();
+        arroz.setMarca("Schettino");
+        arroz.setCantidad(2000);
+        arroz.setPrecio(24.30);
+        arroz.setProducto("Arroz");
+
+        System.out.println(arroz.getDatos());
+
 
     }
 
