@@ -1,5 +1,6 @@
 import ClasesyObjetos.Automovil;
 import ClasesyObjetos.Avion;
+import ClasesyObjetos.Caballo;
 import ClasesyObjetos.Escuela;
 import ClasesyObjetos.Libreria;
 import ClasesyObjetos.Mascota;
@@ -9,6 +10,7 @@ import ClasesyObjetos.Pelota;
 import ClasesyObjetos.Persona;
 import ClasesyObjetos.ProductoAbarrotes;
 import ClasesyObjetos.ProductoPapeleria;
+import ClasesyObjetos.Soda;
 
 public class UsoPersona {
 
@@ -91,7 +93,7 @@ public class UsoPersona {
 
 
 
-        ProductoAbarrotes pasta = new ProductoAbarrotes();
+       /* ProductoAbarrotes pasta = new ProductoAbarrotes();
         pasta.setProducto("Sopa Codo");
 pasta.setCantidad(50);
 pasta.setMarca("La moderna");
@@ -106,8 +108,21 @@ pasta.setPrecio(15.50);
         arroz.setPrecio(24.30);
         arroz.setProducto("Arroz");
 
-        System.out.println(arroz.getDatos());
+        System.out.println(arroz.getDatos());*/
 
+
+        //Caballo cuadrupedo = new Caballo("Pelusa", "cafe",'f', 500,5);
+        //System.out.println(cuadrupedo.getInformacion());//
+
+
+      Soda pepeco = new Soda();
+      pepeco.setNombre("Fanta");
+        pepeco.setMarca("Coca Cola ");
+        pepeco.setSabor("naranja");
+        pepeco.setPrecio(24.00);
+        pepeco.setMililitros(600);
+
+        System.out.println(pepeco.getDatos());
 
     }
 
